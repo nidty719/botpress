@@ -12,6 +12,7 @@
     "dep:fix": "ts-node -T ./scripts/depsynky sync",
     "check": "pnpm dep:check && pnpm format:check && pnpm lint:check && pnpm type:check",
     "fix": "pnpm dep:fix && pnpm format:fix && pnpm lint:fix"
+    "start": "bp login | bp init"
   },
   "dependencies": {
     "@botpress/cli": "workspace:*",
